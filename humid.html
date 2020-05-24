@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Latitude</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    
+
+  <div class="container shadow-lg p-3 mb-5 bg-white rounded">
+    <!--Normally these medium columns go full wide on small screen sizes-->
+    <div class="row header1 top-bar">
+      <div class="col-3 col-sm-6 col-md-3">
+        <div class="box top-nav"><a href="index.html" class="h1">Latitude</a></div>
+      </div>
+      <div class="col-3 col-sm-6 col-md-5">
+          <div class="box red"></div>
+        </div>
+      <div class="col-3 col-sm-6 col-md-4">
+          <div class="box red">
+              <!-----nanvigation --->
+            
+              <ul class="nav nav-tabs">
+                
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                    <a class="dropdown-item" href="humid.html">Humidity</a>
+                    <a class="dropdown-item" href="cloud.html">Cloudiness</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="data.html">Data</a>
+                </li>
+              </ul>
+              <!---- End Nav-->
+            </div>
+          </div>
+    </div>
+    <div class="row">
+      <div class="col-md-7 card shadow">
+        <!-- div class="box skyblue">col-md-8</div --->
+        <div class="card-header h2">
+          Humidity
+        </div>
+        <div class="card-body">
+          <p class="card-text"><img src="assets/img/fig2.png" width="400" height="275" align="left">
+            Also, because warm air can hold more moisture than cool air, locations with warm climates, such as those near the equator, generally have higher humidity than locations with cooler climates, such as those near the poles. Learn more about water in the air from Water, Water Everywhere!
+Because of the height of the sun above the horizon (the solar elevation angle is always very roughly close to 90 degrees, give or take roughly around 23 degrees or so if you are close to the equator), the sun’s rays do not have to shine through a lot of air to get to the ground. Also the energy falling on 1 square metre of horizontal surface is high, because solar elevation angles are large. Its like shining a torch directly at a surface rather than shining so that there is a small angle between ground and direction of torch beam. As to the humidity, most of the rain in the tropics is convectional rain and with rain falling you have a lot of evaporation after rains. Actually it is not all that humid in some parts of the tropics, but if you are close to the sea the air will hold a lot of moisture. Where there is a lot of rain in the tropics a lot of solar energy is used up in evaporation and temperatures are usually not higher than 35 deg C or so. 
+</p>
+        </div>
+      </div>
+      
+      <div class="col-md-5 card shadow">
+        <!--- div class="box skyblue">col-md-4</div  --->
+        <div class="card-header h2">
+          Visualization
+        </div>
+        <div class="card-body">
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a class="active" href="max_temp.html"><img src="assets/img/fig1.png" width="200" height="138" class="rounded float-left"></a>
+          <a class="active" href="humid.html"><img src="assets/img/fig2.png" width="200" height="138" class="rounded float-right border border-success"></a>
+          <a class="active" href="cloud.html"><img src="assets/img/fig3.png" width="200" height="138" class="rounded float-left"></a>
+          <a class="active" href="wind.html"><img src="assets/img/fig4.png" width="200" height="138" class="rounded float-right"></a>
+        </div>
+      </div>
+    </div>
+
+   
+<!--
+    These are full wide on a medium screen, half wide on a small screen, 1/4 wide on an extra small screen-->
+    <div class="row">
+      
+      <div class="col-3 col-sm-6 col-md-12 footer footer-copyright text-center py-3">
+        <div class="box red">copyright © Northwestern Bootcamp 2020</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
