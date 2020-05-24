@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Latitude</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    
+
+  <div class="container shadow-lg p-3 mb-5 bg-white rounded">
+    <!--Normally these medium columns go full wide on small screen sizes-->
+    <div class="row header1 top-bar">
+      <div class="col-3 col-sm-6 col-md-3">
+        <div class="box top-nav"><a href="index.html" class="h1">Latitude</a></div>
+      </div>
+      <div class="col-3 col-sm-6 col-md-5">
+          <div class="box red"></div>
+        </div>
+      <div class="col-3 col-sm-6 col-md-4">
+          <div class="box red">
+              <!-----nanvigation --->
+            
+              <ul class="nav nav-tabs">
+                
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                    <a class="dropdown-item" href="humid.html">Humidity</a>
+                    <a class="dropdown-item" href="cloud.html">Cloudiness</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="Comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="data.html">Data</a>
+                </li>
+              </ul>
+              <!---- End Nav-->
+            </div>
+          </div>
+    </div>
+    <div class="row">
+        
+          
+      <div class="col-md-12 card shadow">
+        <!--- div class="box skyblue">col-md-4</div  --->
+        <div class="card-header h2">
+          Comparison: Latitude Vs. X
+        </div>
+        <div class="card-body">
+          <div class="card-text">Click any plot to get indepth information</div>
+          <!---- start grid-->
+          <div class="row">
+            <div class="col h5">vs. Max Temp
+              <a href="max_temp.html"><img src="assets/img/fig1.png" width="400" height="275" class="rounded"></a></div>
+            <div class="col h5">vs. Humidity<br><a href="humid.html"><img src="assets/img/fig2.png" width="400" height="275" class="rounded"></a></div>
+            <div class="w-100"></div>
+            <div class="col h5">vs. Cloudiness<a href="cloud.html"><img src="assets/img/fig3.png" width="400" height="275" class="rounded"></a></div>
+            <div class="col h5">vs. Wind Speed<a href="wind.html"><img src="assets/img/fig4.png" width="400" height="275" class="rounded"></a></div>
+          </div>
+          <!---- End grid -->
+          
+        </div>
+      </div>
+    </div>
+
+    
+
+   
+<!--
+    These are full wide on a medium screen, half wide on a small screen, 1/4 wide on an extra small screen-->
+    <div class="row">
+      
+      <div class="col-3 col-sm-6 col-md-12 footer footer-copyright text-center py-3">
+        <div class="box red">copyright © Northwestern Bootcamp 2020</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

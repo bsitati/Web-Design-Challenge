@@ -1,0 +1,232 @@
+
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+  background: #faf6f6;
+}
+
+.top-bar{
+  background: #f8f5f5;
+  width:100%;
+
+
+}
+.h1 {
+  font-size: 40px;
+  /*background: #8f9194;*/
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  
+}
+
+.h2 {
+  color: rgb(9, 161, 141);
+
+}
+
+.h5 {
+ 
+  color: rgb(9, 161, 141);
+  text-align: center;
+
+
+}
+
+.container {
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
+  background: #fceded;
+  justify-content: space-between;
+}
+}
+
+
+
+h3 {
+  font-size: 30px;
+}
+
+/* Giving our navbar some padding and a background color */
+.navbar {
+  /* padding: 10px; */
+  background: #8f9194;
+  width:100%;
+}
+
+/* unvisited link */
+a:link {
+  color: green;
+}
+
+.nav-link
+{
+  color: rgb(17, 5, 5);
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+/* visited link */
+a:visited {
+  background-color: rgb(10, 143, 103);
+  text-decoration: none;
+
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(250, 244, 244);
+ /*background-color: rgb(10, 143, 103);*/
+   text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+  background-color: rgb(10, 143, 103);
+
+
+}
+
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #e3e6f0;
+  border-radius: 0.35rem;
+}
+
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+.navbar li {
+  display: inline-block;
+  padding: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 3px;
+}
+
+/* Getting rid of the default link styles here */
+.navbar li a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Styling the header, giving it a height, a background color, and some top padding */
+.top-nav{
+  background: #139bad;
+  width:100%;
+  /*height: 60px; */
+
+}
+
+.header1 {
+  padding-top: 20px;
+  background: #f0efef;
+  width:100%;
+}
+
+/* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
+.header h1 {
+  padding: 60px;
+  margin: 0;
+  color: rgb(255, 254, 254);
+  /*text-align: center; */
+}
+
+/* Giving the .post element margin on 3 sides */
+.post {
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+}
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -0.75rem;
+  margin-left: -0.75rem;
+  justify-content: space-between;
+}
+}
+
+#nav-select {
+  visibility: hidden;
+}
+
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+@media (max-width: 480px) {
+  .navbar li {
+    padding: 10px;
+  }
+
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .navbar ul {
+    visibility: hidden;
+  }
+
+  #nav-select {
+    visibility: visible;
+  }
+}
+
+
+footer.sticky-footer {
+  padding: 2rem 0;
+  flex-shrink: 0;
+  background-color: rgb(89, 148, 142)
+  position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
+  
+}
+
+footer.sticky-footer .copyright {
+  line-height: 1;
+  font-size: 0.8rem;
+  font-size: 12;
+  background-color: rgb(89, 148, 142)
+  color: rgb(255, 254, 254);
+}
+
+.footer { 
+  /*position: fixed; 
+  padding: 10px 10px 0px 10px; 
+  /*bottom: 0; 
+  /* Height of the footer*/  
+  height: 40px; 
+  background: grey; 
+  font-size: 12;
+  color: rgb(255, 254, 254);
+} 
+
+.widgets {
+  display: flex;
+  justify-content: space-around;
+}
